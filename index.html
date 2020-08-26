@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adona.kz</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+        @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900);
 
         * {
             padding: 0;
             margin: 0;
-            font-family: 'Nunito', sans-serif;
+            font-family: 'Roboto', sans-serif;
             font-weight: normal;
         }
 
@@ -20,7 +20,7 @@
             margin: 1em auto;
             max-width: 45em;
             padding: 0.62em;
-            font: 1.2em/1.62 sans-serif;
+            font-size: 1.2em;
             text-align: center;
 
         }
@@ -34,9 +34,6 @@
             box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
             transition: .3s;
         }
-
-        h1,
-        h2,
         p {
             line-height: 1;
             color: #777;
@@ -71,6 +68,9 @@
             background: #444;
             color:#ffffff;
             border: 2px solid white;
+        }
+        .element:hover {
+            background: #333;
         }
         a[href*="wa"]::before {
             content: url("img/wts.svg");
