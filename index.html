@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adona.kz</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Nunito', sans-serif;
+            font-weight: normal;
+        }
+
+        body {
+            background-color: #333;
+            margin: 1em auto;
+            max-width: 45em;
+            padding: 0.62em;
+            font: 1.2em/1.62 sans-serif;
+            text-align: center;
+
+        }
+
+        .box {
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        .element:hover {
+            box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+            transition: .3s;
+        }
+
+        h1,
+        h2,
+        p {
+            line-height: 1;
+            color: #777;
+        }
+
+        img {
+            width: 80px;
+            height: auto;
+        }
+
+        a {
+            white-space: normal;
+            line-height: 1;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            padding: 1.2rem;
+            text-decoration: none;
+            display: block;
+            color: #ffffff;
+        }
+
+        ::before {
+            vertical-align: middle;
+            height: 1em;
+            margin-right: .5rem;
+            display: inline-block;
+        }
+
+        .element {
+            margin: 10px auto;
+            width: 400px;
+            background: #444;
+            color:#ffffff;
+            border: 2px solid white;
+        }
+        a[href*="wa"]::before {
+            content: url("img/wts.svg");
+            position: relative;
+            bottom: 6px;
+        }
+
+        a[href*="wa"] {
+            margin: 10px auto;
+            width: 400px;
+            background: #55cd6c;
+        }
+
+        hr {
+            width: 400px;
+            margin: 15px auto;
+        }
+
+        @media screen and (max-width:500px) {
+        .grid-items {
+            margin: 0 auto;
+        }
+        .element {
+            margin: 10px auto;
+            width: 300px;
+            background: #444;
+            color:#ffffff;
+            border: 2px solid white;
+        }
+        a[href*="wa"]::before {
+            content: url("img/wts.svg");
+            position: relative;
+            bottom: 6px;
+        }
+        hr {
+            width: 280px;
+            margin: 15px auto;
+        }
+        a[href*="wa"] {
+            margin: 10px auto;
+            width: 300px;
+            background: #55cd6c;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-items">
+        <img class="grid-item-1" src="img/logotip-1.png">
+        <p class="grid-item-2">Adona.kz</p>
+    </div>
+
+    <div class="box">
+        <a target="_blank" class="element" href="#/item_menu.html">Овощи</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Ягоды</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Грибы</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Морепродукты</a>
+        <a target="_blank" class="element" href="#/item_menu.html">UFS</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Рыба</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Картофельная продукция</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Соусы Heinz</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Наггетсы</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Хлебные изделия</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Мясная продукция</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Продукция Heinz</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Мороженое</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Десерты</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Полуфабрикаты</a>
+        <a target="_blank" class="element" href="#/item_menu.html">Солено-сушеная продукция</a>
+        <hr>
+        <a target="_blank" class="element" href="https://wa.me/79992493650">Написать в WhatsApp</a>
+    </div>
+</body>
+
+</html>
